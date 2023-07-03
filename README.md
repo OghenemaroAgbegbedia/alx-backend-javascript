@@ -1,17 +1,38 @@
-# ALX Backend JavaScript Short Specialization
+# 0x03. ES6 data manipulation
 
-This repository contains projects for the ALX Backend JavaScript short specialization. The specialization covers the fundamentals of backend web development using JavaScript, including topics such as Node.js, Express.js, MongoDB, and RESTful API development.
+## Tasks
+### 0. Basic list of objects
+- Create a function named getListStudents that returns an array of objects.
 
-## Projects
+### 1. More mapping
+- Create a function getListStudentIds that returns an array of ids from a list of object.
 
-The projects in this repository are designed to help you apply the concepts you've learned in the coursework to real-world scenarios. Each project is designed to be completed within a specific timeframe and builds upon the concepts covered in the preceding modules. These include:
-- ### 0x00. ES6 Basics
+### 2. Filter
+- Create a function getStudentsByLocation that returns an array of objects who are located in a specific city.
 
+### 3. Reduce
+- Create a function getStudentIdsSum that returns the sum of all the student ids.
 
-## Prerequisites
+### 4. Combine
+- Create a function updateStudentGradeByCity that returns an array of students for a specific city with their new grade
 
-To complete this course, you should have a basic understanding of JavaScript and web development concepts such as HTML, CSS, and client-side JavaScript. You should also have access to a computer running Node.js and a code editor such as Visual Studio Code.
+### 5. Typed Arrays
+- Create a function named createInt8TypedArray that returns a new ArrayBuffer with an Int8 value at a specific position.
 
-## Authors
+### 6. Set data structure
+- Create a function named setFromArray that returns a Set from an array.
 
-This course was created by ALX, a provider of online learning and development programs for software developers.
+### 7. More set data structure
+- Create a function named hasValuesFromArray that returns a boolean if all the elements in the array exist within the set.
+
+### 8. Clean set
+- Create a function named cleanSet that returns a string of all the set values that start with a specific string (startString).
+
+### 9. Map data structure
+- Create a function named groceriesList that returns a map of groceries with the following items (name, quantity):
+
+### 10. More map data structure
+- Create a function named updateUniqueItems that returns an updated map for all items with initial quantity at 1.
+
+### 11. Weak link data structure
+- Export a const instance of WeakMap and name it weakMap.
